@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishv Book Publication</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f1f5f9;
+  color:#1e293b;
+}
+header{
+  background:#142b50;
+  color:white;
+  padding:22px;
+}
+header h2{margin:0 0 8px}
+main{max-width:950px;margin:auto;padding:16px}
+.card{
+  background:white;
+  padding:22px;
+  border-radius:18px;
+  margin-bottom:20px;
+  box-shadow:0 3px 12px #0000000d;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:14px;
+}
+h3{color:#24579b}
+.amount{font-size:26px;font-weight:bold}
+.pending{color:#a85b12;font-weight:bold}
+table{width:100%;border-collapse:collapse}
+th,td{
+  text-align:left;
+  padding:13px 8px;
+  border-bottom:1px solid #ddd;
+}
+footer{
+  text-align:center;
+  padding:20px;
+  color:#64748b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>Vishv Book Publication</h2>
+  <p>Company Management Dashboard</p>
+</header>
+
+<main>
+
+<section class="card">
+  <h3>Customer Information</h3>
+  <p><b>Customer Name:</b> Harshita Singh</p>
+  <p><b>Mobile Number:</b> 8527787128</p>
+  <p><b>Reference Code:</b> 333</p>
+  <p><b>Address:</b> Anand Parbat, Than Singh Nagar</p>
+  <p><b>City:</b> New Delhi</p>
+  <p><b>District:</b> Central Delhi</p>
+  <p><b>Postal Code:</b> 110005</p>
+</section>
+
+<section class="grid">
+
+  <div class="card">
+    <h3>Delivery Charge</h3>
+    <div class="amount">₹1,999</div>
+    <p>Salary Total: ₹14,499</p>
+    <p class="pending">Status: Pending</p>
+  </div>
+
+  <div class="card">
+    <h3>GST Charge</h3>
+    <div class="amount">₹4,999</div>
+    <p>Salary Total: ₹19,498</p>
+    <p class="pending">Status: Pending</p>
+  </div>
+
+  <div class="card">
+    <h3>Withdrawal Charges</h3>
+    <div class="amount">₹8,769</div>
+    <p>Calculated Total: ₹28,267</p>
+    <p class="pending">Status: Pending</p>
+  </div>
+
+</section>
+
+<section class="card">
+  <h3>Payment Summary</h3>
+
+  <table>
+    <tr>
+      <th>Description</th>
+      <th>Amount</th>
+    </tr>
+    <tr>
+      <td>Salary Before Charges</td>
+      <td>₹12,500</td>
+    </tr>
+    <tr>
+      <td>Delivery Charge</td>
+      <td>₹1,999</td>
+    </tr>
+    <tr>
+      <td>GST Charge</td>
+      <td>₹4,999</td>
+    </tr>
+    <tr>
+      <td>Withdrawal Charges</td>
+      <td>₹8,769</td>
+    </tr>
+    <tr>
+      <th>Total Amount</th>
+      <th>₹28,267</th>
+    </tr>
+  </table>
+
+  <p class="pending">
+    Payment Status: Pending Verification
+  </p>
+  <p>
+    Payment status must be confirmed against actual payment records.
+  </p>
+</section>
+
+<section class="card">
+  <h3>Company Payment Details</h3>
+  <p><b>UPI ID:</b> iabrayam@ptyes</p>
+  <p>
+    Please verify the account holder and payment details
+    before making any payment.
+  </p>
+  <p>Payment Verification: Not Connected</p>
+</section>
+
+</main>
+
+<footer>
+  Vishv Book Publication © 2026
+</footer>
+
+</body>
+</html>
